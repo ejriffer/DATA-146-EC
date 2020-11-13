@@ -8,17 +8,17 @@ The data that was explored in this report was a household survey from the West A
 
 Below are histograms that show the distribution of the responses for each column of the data table. 
 
-![](age.png)
-
-![](education.png)
-
-![](gender.png)
-
 ![](location.png)
 
 ![](size.png)
 
 ![](wealth.png)
+
+![](gender.png)
+
+![](age.png)
+
+![](education.png)
 
 The purpose of this report is to analyze this data and see if any classification models can be used to accurately predict what the education level of a given person is based on their responses in the other columns. Before any classification models were run on the data it was first split into testing and training groups using the sklearn train_test_split library, where the 50% of the data was used as training and the other 50% used as a testing set. A random state of 146 was used to ensure results could be repeated. The classification models that were run include Logistic Regression, kNN, Decision Tree Classifier, and Random Forest Classifier. The results were standardized using MinMaxScaler, RobustScaler, StandardScaler, and Normalizer all from sklearn's preprocessing library. 
 
